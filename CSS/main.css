@@ -10,6 +10,7 @@ body {
     letter-spacing: 0.1rem;
     line-height: 1.6;
     background-color: #fff;
+    font-size: 400;
 }
 h1,h2,h3,h4,h5,h6,
 p,ul,ol,figure{
@@ -76,8 +77,14 @@ h2{
     font-weight: bold;
 }
 
+#cart{
+   max-height: 17px;
+   max-width: 17px;
+}
+
 svg {
-    position:sticky;
+    position: relative;
+    vertical-align: -1.6rem;
     margin-bottom: 0;
     margin-left: -6rem;
     transform: rotate(20deg);
